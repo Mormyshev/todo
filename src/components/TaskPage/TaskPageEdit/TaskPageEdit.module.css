@@ -1,0 +1,32 @@
+.taskPage {
+	display: flex;
+	flex-direction: column;
+}
+.formWrapper {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.textareaTitle {
+	border: 1px solid #d1cfcf;
+	width: 100%;
+	height: 55px;
+	margin-bottom: 65px;
+	font-size: 20px;
+	outline: none;
+}
+.formBtn {
+	display: flex;
+	align-items: center;
+	margin: 15px 0 15px auto;
+	width: 70px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	background-color: transparent;
+}
+.formBtn img {
+	width: 13px;
+	margin-right: 5px;
+}

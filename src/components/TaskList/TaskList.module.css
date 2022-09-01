@@ -1,0 +1,12 @@
+.tasksList {
+	grid-area: l;
+	border-right: 1px solid #d1cfcf;
+	min-width: 200px;
+}
+.taskListWrapper {
+	padding: 15px;
+}
+
+.taskPage {
+	grid-area: p;
+}

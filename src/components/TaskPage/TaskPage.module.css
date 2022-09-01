@@ -1,0 +1,11 @@
+.taskPageWrapper {
+	display: grid;
+	grid-template-areas: "a e";
+	grid-column: 1fr;
+}
+.taskAdd {
+	grid-area: a;
+}
+.taskEdit {
+	grid-area: e;
+}

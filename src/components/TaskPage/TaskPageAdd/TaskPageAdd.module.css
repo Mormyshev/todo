@@ -1,0 +1,40 @@
+.taskPage {
+	display: flex;
+	flex-direction: column;
+}
+.formWrapper {
+	margin: 0 15px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid #d1cfcf;
+}
+.input {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #d1cfcf;
+	outline: none;
+	font-size: 22px;
+}
+textarea {
+	padding-top: 15px;
+	border: 1px solid #d1cfcf;
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	outline: none;
+}
+.formBtn {
+	display: flex;
+	align-items: center;
+	margin: 15px 0 15px auto;
+	width: 70px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	background-color: transparent;
+}
+.formBtn img {
+	width: 13px;
+	margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+.taskListWrapper {
+	padding-top: 15px;
+}
+.taskPage {
+	grid-area: p;
+}
+.taskText {
+	margin-right: auto;
+	padding: 0 15px;
+	text-decoration: line-through;
+}
+.taskTitle {
+	margin: 0 0 15px 0;
+}
+.task {
+	padding-bottom: 15px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.taskImageBtn {
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,19 @@
+.header {
+	width: 100%;
+	border-bottom: 1px solid #d1cfcf;
+	grid-area: h;
+	display: flex;
+	align-items: center;
+}
+.headerWrapper {
+	display: flex;
+	align-items: center;
+}
+.logoImage {
+	width: 40px;
+	margin-left: 10px;
+}
+.logoText {
+	font-size: 30px;
+	margin-left: 10px;
+}

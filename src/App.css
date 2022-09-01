@@ -1,0 +1,21 @@
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+.app-wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	min-height: 350px;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	display: grid;
+	grid-template-areas:
+		"h h"
+		"l p";
+	grid-template-rows: 70px 1fr;
+	grid-template-columns: 4fr 10fr;
+}

@@ -1,0 +1,24 @@
+.tasksList {
+	grid-area: l;
+	min-width: 200px;
+}
+.newTask {
+	border-bottom: 1px solid #d1cfcf;
+}
+.taskTitle {
+	margin: 0 0 15px 0;
+}
+.task {
+	padding-bottom: 15px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.taskImageBtn {
+	width: 20px;
+	height: 20px;
+}
+.taskText {
+	margin-right: auto;
+	padding: 0 15px;
+}

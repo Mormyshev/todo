@@ -1,0 +1,24 @@
+.taskText {
+	margin-right: auto;
+	padding: 0 15px;
+	text-decoration: line-through;
+	margin-right: auto;
+	padding-right: 15px;
+	/*делаем ... если заголовок заметки не влезает в поле*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.taskTitle {
+	margin: 0 0 15px 0;
+}
+.task {
+	padding-bottom: 15px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.taskImageBtn {
+	width: 20px;
+	height: 20px;
+}
